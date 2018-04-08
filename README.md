@@ -6,6 +6,9 @@ Java solutions for leetcode.
 |---------------------------------------------------------------|-----------------------|-----------------------|
 |[Burst Balloons](LC312.java)                                   |O(N^3)                 |O(N^2)                 |
 |[Longest Palindromic Subsequence](LC516.java)                  |O(N^2)                 |O(N^2)                 |
+|[Delete Operation for Two Strings](LC583.java)                 |O(N^2)                 |O(N^2)                 |
+|[Out of Boundary Paths](LC576.java)                            |O(N * m * n)           |O(m * n) improvement   |
+|[Maximum Vacation Days](LC568.java)                            |O(weeks * citites ^ 2) |(O(cities) improvement |
 
 
 ### Stack
@@ -25,7 +28,8 @@ Java solutions for leetcode.
 |Title                                                          |Time Complexity        |Space Complexity       |
 |---------------------------------------------------------------|-----------------------|-----------------------|
 |[Most Frequent Subtree Sum](LC508.java)                        |O(N)                   |O(N)                   |
-
+|[Subtree of Another Tree](LC572.java)                          |O(N + M)               |O(1)                   |
+ 
 ### Hash table
 |Title                                                          |Time Complexity        |Space Complexity       |
 |---------------------------------------------------------------|-----------------------|-----------------------|
