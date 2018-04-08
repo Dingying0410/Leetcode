@@ -1,4 +1,6 @@
 class Solution {
+    //Time complexity: O(N * log(sum - max)) 
+    //Space: O(1)
     public int splitArray(int[] nums, int m) {
         if (nums.length == 0 || nums.length < m)
             return 0;
