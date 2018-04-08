@@ -1,4 +1,15 @@
 class Solution {
+    //Time complexity: O(m * n * log(mn)), we totally push mn nodes to the priority queue, 
+    //and each operation takes log(n) times, n for the number of nodes in the heap
+
+    //Space complexity: O(m * n)
+
+    //Idea: 
+    //Starting from the boudary, we see if we can collect water by traversing its neighbors
+    //The water can be collected when the current cell has a greater height than its neighbor
+    //We set the height to be 1, 2, 3... respectively, so we use priority queue
+    //visited means that we have traversed this cell before, meaning that we can't collect water here
+    
     class Rect {
         int i;
         int j;
