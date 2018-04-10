@@ -7,6 +7,8 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+
+／／t
 class Solution {
     public boolean isSubtree(TreeNode s, TreeNode t) {
         if (s == null && t == null)
