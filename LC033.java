@@ -1,5 +1,9 @@
 class Solution {
     //Time: O(log n)
+    //Draw a graph to represent the rotated sorted array
+    //Relationship between nums[start], nums[mid], target
+    //On the left: nums[start] <= nums[mid]
+    //On the right: nums[start] > nums[mid]
     public int search(int[] nums, int target) {
         if (nums.length == 0)
             return -1;

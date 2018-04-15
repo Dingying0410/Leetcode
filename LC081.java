@@ -1,4 +1,9 @@
 class Solution {
+    //What differes from the one without duplicates is that
+    //if nums[start] == nums[mid], one is on the left, and mid is on the right,
+    //if we do start = mid + 1,
+    //then we might skip the target which is located in the middle
+    //so we only do start++ here
     public boolean search(int[] nums, int target) {
         if (nums.length == 0)
             return false;
