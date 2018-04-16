@@ -41,4 +41,28 @@ class Solution {
         pre.next = head;
         return res;
     }
+
+    //Version 2: get the length first, beat 96%
+    public ListNode rotateRight2(ListNode head, int k) {
+        if (head == null || head.next == null || k == 0)
+            return head;
+        ListNode fast = head;
+        int len = 1;
+        while (fast.next != null) {
+            len++;
+            fast = fast.next;
+        }
+        k %= len;
+        if (k == 0) return head;
+        k = len - k;
+        ListNode pre = new ListNode(0);
+        pre.next = head;
+        for (int i = 0; i < k; i++) {
+            pre = pre.next;
+        }
+        ListNode res = pre.next;
+        pre.next = null;
+        fast.next = head;
+        return res;
+    }
 }

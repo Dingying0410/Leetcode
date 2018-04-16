@@ -1,4 +1,5 @@
 class Solution {
+    //76.59%
     public String getPermutation(int n, int k) {
         //if n = 4, then we have 1234, 1243, 1324, 1342, 1423, 1432, 2134, 2143...
         //choose the first number, divide by (n - 1)!

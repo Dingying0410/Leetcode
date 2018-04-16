@@ -18,4 +18,27 @@ class Solution {
         }
         return sb.length() == 0? "/" : sb.toString();
     }
+
+    //Version 2: Faster version using deque, beat 80%
+    //Might be because the time for stringBuilder insert is slow?
+    public String simplifyPath(String path) {
+        Deque<String> queue = new LinkedList<>();
+        String[] strs = path.split("/");
+        for (int i = 0; i < strs.length; i++) {
+            if (strs[i].equals(".") || strs[i].equals("")) {
+                continue;
+            } else if (strs[i].equals("..")) {
+                if (!queue.isEmpty()) 
+                    queue.removeLast();  //poll from the end
+            } else {
+                queue.addLast(strs[i]);
+            }
+        }
+        StringBuilder sb = new StringBuilder();
+        while (!queue.isEmpty()) {
+            String poll = queue.removeFirst();
+            sb.append("/" + poll);
+        }
+        return sb.length() == 0? "/" : sb.toString();
+    }
 }
