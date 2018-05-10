@@ -43,6 +43,7 @@ Java solutions for leetcode.
 |---------------------------------------------------------------|-----------------------|-----------------------|
 |[Minimum Unique Word Abbreviation](LC411.java)                 |                       |                       |
 |[Word Squares](LC425.java)                                     |                       |                       |
+|[Factor Combinations](LC254.java)                              |                       |                       |
 
 ### Trie
 |Title                                                          |Time Complexity        |Space Complexity       |
