@@ -31,7 +31,9 @@ Java solutions for leetcode.
 |Title                                                          |Time Complexity        |Space Complexity       |
 |---------------------------------------------------------------|-----------------------|-----------------------|
 |[Most Frequent Subtree Sum](LC508.java)                        |O(N)                   |O(N)                   |
-|[Subtree of Another Tree](LC572.java)                          |O(N + M)               |O(1)                   |
+|[Subtree of Another Tree](LC572.java)                          |O(N + M)               |O(1)                   |     
+|[Binary Tree Longest Consecutive Sequence](LC298.java)         |O(N)                   |O(1)                   |    
+|[Serialize and Deserialize Binary Tree](LC297.java)            |O(N)                   |O(1)                   | 
  
 ### Hash table
 |Title                                                          |Time Complexity        |Space Complexity       |
@@ -42,8 +44,8 @@ Java solutions for leetcode.
 |Title                                                          |Time Complexity        |Space Complexity       |
 |---------------------------------------------------------------|-----------------------|-----------------------|
 |[Minimum Unique Word Abbreviation](LC411.java)                 |                       |                       |
-|[Word Squares](LC425.java)                                     |                       |                       |
-|[Factor Combinations](LC254.java)                              |                       |                       |
+|[Word Squares](LC425.java)                                     |                       |                       |   
+|[Factor Combinations](LC254.java)                              |                       |                       |   
 
 ### Trie
 |Title                                                          |Time Complexity        |Space Complexity       |
